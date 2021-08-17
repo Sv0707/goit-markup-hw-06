@@ -636,6 +636,7 @@ margin-left: 50px;
 
 .social-footer {
   margin-top: 0;
+  margin-right: 93px;
 }
 
 .social-link-footer {
@@ -704,6 +705,51 @@ margin-left: 50px;
 .footer-phone:hover,
 .footer-phone:focus {
   color: var(--accent-color);
+}
+
+.footer-block-submit {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-input-form-wrapper {
+  display: flex;
+}
+
+.footer-input-form {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: #FFFFFF;
+  background: none;
+}
+
+.footer-input-form::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0,6);
+}
+
+.footer-submit-button {
+  display: flex;
+  align-items: center;
+  background-color: var(--accent-color);
+  padding: 10px 29px;
+  min-width: 200px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-right: 10px;
 }
 
 /*backdrop and modal*/

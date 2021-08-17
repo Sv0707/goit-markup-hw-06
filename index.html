@@ -466,6 +466,21 @@
         </a></li>
             </ul>
         </div>
+        <div class="footer-block-submit">
+          <form class="footer-submit-form">
+              <p class="footer-icons-title">Подпишитесь на рассылку</p>
+              <span class="footer-input-form-wrapper">
+                  <input type="email" name="user-email" class="footer-input-form" required
+                      placeholder="E-mail">
+                  <button type="submit" class="footer-submit-button">
+                    <span class="submit-button-text">Подписаться</span>
+                      <svg class="footer-submit-icon" width="24" height="24">
+                          <use href="./images/svg-sprite.svg#icon-telegram"></use>
+                      </svg>
+                  </button>
+              </span>
+          </form>
+      </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -517,13 +532,11 @@
           </label>
           <div class="checkbox-modal-block">
           <input type="checkbox" name="accept-policy" id="accept-policy"
-              class="modal-form-checkbox visually-hidden">
-              <div class="svg11">
+              class="modal-form-checkbox">
             <svg class="modal-checkbox-icon" width="15" height="15">
                 <use href="./images/svg-sprite.svg#icon-checkmark">
                 </use>
               </svg>
-            </div>
           <label for="accept-policy" class="modal-form-checkbox-label">
             Соглашаюсь с рассылкой и принимаю&nbsp;
             <a class="modal-form-checkbox-link" href="">
