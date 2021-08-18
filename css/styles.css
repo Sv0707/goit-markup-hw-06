@@ -714,6 +714,7 @@ margin-left: 50px;
 
 .footer-input-form-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .footer-input-form {
